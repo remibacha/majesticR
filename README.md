@@ -4,7 +4,7 @@
 
 Implements methods for querying backlink data from Majestic using its API. 
 Majestic API uses a basic authentication with an API key. 
-This package is used in the "[Do You Need Backlinks for SEO?](https://remibacha.com/en/backlinks-r/)" tutorial ([Avez-vous vraiment besoin de backlinks ?](https://remibacha.com/fr/backlinks/) in french).
+This package is used in the "[Do You Need Backlinks for SEO?](https://remibacha.com/en/backlinks-r/)" tutorial (french version: ["Avez-vous vraiment besoin de backlinks ?"](https://remibacha.com/fr/backlinks/)).
 
 
 ## Install
