@@ -1,0 +1,39 @@
+---
+title: "majesticR - R Interface To Access the Majestic API"
+author: "Rémi Bacha"
+
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## 1. Introduction
+The package `majesticR` provides methods for querying backlink data from 'Majestic' using its API.
+Majestic API uses a basic authentication with an API key. 
+
+
+## 2. Installation
+See INSTALL for installation instructions and platform specific details.
+
+
+## 3. Functions
+
+### majestic_url()
+This function provides all backlink data of an URL, including its CitationFlow, TrustFlow, and Root domain.
+
+### majestic_domain()
+This function first extract the root domain from an URL, then provides all backlink data of the domain, including its CitationFlow, TrustFlow, and Root domain.
+
+### majestic_all()
+This function provides both majestic URL data and majestic Root Domain data for an URL.
+
